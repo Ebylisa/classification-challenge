@@ -1,0 +1,8 @@
+# Classification Challenge
+AI Module 13 Challenge
+
+## Challenge Background and Objective:
+This module challenge objective was to improve the email filtering system for its customers by developing a supervised machine learning (ML) model from a dataset and that will accurately detect spam emails so it can filter them out of its customers' inboxes.  The dataset that contains information about emails, with two possible classifications: spam and not spam. There are only two possible classifications: spam and not spam. Two classification models (logistic regression model and a random forest model) were used to  fit the provided data, and evaluate which model is more accurate at detecting spam. This code is available at Github under https://github.com/Ebylisa/classification-challenge/tree/main.
+
+## Code Summary:
+(1) A repository was created called classification-challenge in Git hub. (2) The starter code named spam_detector.ipynb was downloaded on the local Git repository and the GitHub. (3)  The csv file spam-data.csv was imported for the data analysis from the url https://static.bc-edx.com/ai/ail-v-1-0/m13/challenge/spam-data.csv.  (4) The csv file was read into a Dataframe. (5) The data was split into training and testing data sets. (6) The features data was scaled based on the new transformed X_train & X_test dataframes. (7)  A Logistic Regression model was created using the training scaled data, to make predictions using test data and determine accuracy. (8) The Random Forest classifier model was created using the training scaled data, to make predictions using test data and determine accuracy. (9)  The two models were evaluated to determine which performed better based on an accuracy score comparison.
